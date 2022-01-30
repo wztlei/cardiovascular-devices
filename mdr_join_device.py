@@ -128,7 +128,7 @@ num_rows_written = 0
 groups = defaultdict(int)
 
 with open(ROWS_OUTPUT_FILE, 'w') as file:
-	file.write('|'.join(DEVICE_COLUMNS_OF_INTEREST + MDR_COLUMNS_OF_INTEREST))
+	file.write('|'.join(MDR_COLUMNS_OF_INTEREST + DEVICE_COLUMNS_OF_INTEREST))
 	file.write('\n')
 	date_of_event_index = MDR_COLUMNS_OF_INTEREST.index('DATE_OF_EVENT')
 	product_code_index = DEVICE_COLUMNS_OF_INTEREST.index('DEVICE_REPORT_PRODUCT_CODE')
