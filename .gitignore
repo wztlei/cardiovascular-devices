@@ -128,4 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-foidevproblem.txt
+DEVICE*.txt
+foidev*.txt
+mdrfoiThru2020.txt
