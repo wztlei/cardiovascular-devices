@@ -131,5 +131,5 @@ dmypy.json
 DEVICE*.txt
 foidev*.txt
 mdrfoiThru2020.txt
-data/mdrfoiThru2020-head1000.txt
+data/
 .DS_Store
